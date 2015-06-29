@@ -1,10 +1,11 @@
 {
   "name": "node-eval-json",
   "description": "JSON.stringify(eval(stdin))",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "bin": "node-eval-json.js",
   "license": "MIT",
   "preferGlobal": true,
-  "repository": "kemitchell/node-eval-json"
+  "repository": "kemitchell/node-eval-json",
+  "scripts": {}
 }
