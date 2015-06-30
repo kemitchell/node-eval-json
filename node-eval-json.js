@@ -7,7 +7,7 @@ process.stdin
     input += buffer.toString()
   })
   .on('end', function() {
-    console.log(JSON.stringify(eval('(' + input + ')')));
+    console.log(JSON.stringify(eval('(' + input + ')')))
   })
 
 process.stdin.resume()
